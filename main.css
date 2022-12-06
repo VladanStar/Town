@@ -1,0 +1,35 @@
+:root {
+    --plava: #3496d8;
+    --tamnoSiva: #8f8f8f;
+    --bela: #fff;
+    --padding: 50px 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,900|Slabo+27px');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Slabo 27px', serif;
+    color: var(--tamnoSiva);
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
