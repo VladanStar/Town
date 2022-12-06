@@ -54,9 +54,29 @@ nav ul li a {
     color: var(--bela);
     text-transform: uppercase;
     margin-left: 60px;
+    letter-spacing: 2px;
 }
 .logo {
     color: var(--bela);
     text-decoration: none;
     font-size: 2rem;
+}
+hgroup {
+    color:var(--bela);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+header h2 {
+    font-size: 5rem;
+    text-shadow: 3px 3px 16px black;
+}
+header h4 {
+    font-size: 2rem;
+}
+headerh5 {
+    padding-top: 20px;
+    font-size: 1.5rem;
 }
