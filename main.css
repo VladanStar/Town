@@ -39,3 +39,24 @@ header {
     background-position: center;
     background-size: cover;
 }
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px 0px 50px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+nav ul li a {
+    text-decoration: none;
+    color: var(--bela);
+    text-transform: uppercase;
+    margin-left: 60px;
+}
+.logo {
+    color: var(--bela);
+    text-decoration: none;
+    font-size: 2rem;
+}
