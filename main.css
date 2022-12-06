@@ -33,3 +33,9 @@ h6 {
     width: 90%;
     margin: auto;
 }
+header {
+    background-image: url("./img/header.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
