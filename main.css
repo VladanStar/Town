@@ -225,5 +225,14 @@ footer {
     background-image: url("./img/footer.jpg");
     background-position: center;
     background-size: cover;
-    height: 500px;
+    height: 600px;
+    padding: var(--padding);
+    color: var(--bela);
+}
+footer h2 {
+    font-size: 4rem;
+    border-bottom: 10px solid var(--bela);
+    display: inline-block;
+    position: relative;
+    top: 10px;
 }
