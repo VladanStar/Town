@@ -97,5 +97,30 @@ width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-        
+    padding-left: 50px;
+
+}
+.introduction h2 {
+    font-size: 3rem;
+    color: var(--plava);
+    padding-bottom: 10px;
+}
+.introduction p {
+    font-size: 1.3rem;
+    padding-bottom: 20px;
+
+}
+.introduction button {
+    background-color: var(--plava);
+    width: 250px;
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    color:  var(--bela);
+    font-size: 1.5;
+}
+.introduction button:hover {
+    background-color: var(--tamnoSiva);
+    cursor: pointer;
+
 }
