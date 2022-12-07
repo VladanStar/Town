@@ -248,8 +248,8 @@ footer .row {
   display: flex;
   flex-wrap: wrap;
 }
-footer .row article {
-  display: 0 0 57%;
+.one {
+  flex: 0 0 47%;
   font-size: 1.7rem;
   padding: 50px;
 }
@@ -263,4 +263,81 @@ footer button {
   border: none;
   color: var(--bela);
   font-size: 1.2rem;
+  position: relative;
+  left: -10px;
+}
+/* RESPONSIVE */
+@media(max-width: 768px) {
+  nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav ul li a {
+    margin: 10px;
+    letter-spacing: 1px;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  header h2 {
+    font-size: 4rem;
+  }
+
+  header h4 {
+    text-align: center;
+    font-size: 1.3rem;
+  }
+
+  header {
+    height: 80vh;
+  }
+
+  header hgroup {
+    height: 60vh;
+  }
+
+  .introduction .col,
+  .services article,
+  .works article,
+  footer .row article {
+    flex: 0 0 100%;
+  }
+
+  .introduction .col:last-child {
+    padding-left: 0px;
+  }
+
+  footer {
+    height: 700px;
+  }
+
+  footer h2 {
+    font-size: 3rem;
+  }
+
+  footer {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(img/footer.jpg);
+  }
+
+  footer input[type="email"] {
+    padding: 11px;
+    font-size: 16px;
+  }
+
+  footer button {
+    padding: 12px 12px;
+    background: var(--plava);
+    border: none;
+    color: var(--bela);
+    font-size: 1.2rem;
+    position: relative;
+    left: -10px;
+  }
+
+  footer .row article {
+    padding: 10px;
+  }
 }
