@@ -122,5 +122,6 @@ width: 100%;
 .introduction button:hover {
     background-color: var(--tamnoSiva);
     cursor: pointer;
+    transition: 0.4 ease;
 
 }
