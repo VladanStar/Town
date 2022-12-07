@@ -221,3 +221,9 @@ width: 100%;
     padding: 10px 20px;
 }
 /* FOOTER */
+footer {
+    background-image: url("./img/footer.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
