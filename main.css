@@ -125,3 +125,25 @@ width: 100%;
     transition: 0.4 ease;
 
 }
+/* < !-- Services --> */
+.services {
+    padding: var(--padding);
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.services article {
+    flex: 0 0 30%;
+}
+.services h2 {
+    color: var(--plava);
+    padding-bottom: 20px;
+}
+.services h3 {
+    color: var(--plava);
+    font-size: 4rem;
+    padding-bottom: 20px;
+}
+.services p {
+    text-align: justify;
+}
