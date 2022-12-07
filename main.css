@@ -148,3 +148,55 @@ width: 100%;
     text-align: justify;
 }
 /* WORKS */
+.works {
+    padding: var(--padding);
+}
+.works h2 {
+    color: var(--plava);
+    font-size: 3rem;
+    text-align: center;
+}
+.works h2 +p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.img1 {
+    background-image: url("./img/works1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+.img1 {
+    background-image: url("./img/works1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}.img2 {
+    background-image: url("./img/works2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}.img3 {
+    background-image: url("./img/works3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}.img4 {
+    background-image: url("./img/works4.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+.img5 {
+    background-image: url("./img/works5.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+.img6 {
+    background-image: url("./img/works6.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
