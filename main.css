@@ -82,3 +82,20 @@ header h5 {
     letter-spacing: 2px;
 }
 /* < !-- Introduction --> */
+.introduction img {
+width: 100%;
+}
+.introduction {
+    display: flex;
+    padding: var(--padding);
+
+}
+.introduction .col {
+    flex:1;
+}
+.introduction .col:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        
+}
