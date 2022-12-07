@@ -236,3 +236,12 @@ footer h2 {
     position: relative;
     top: 10px;
 }
+footer hr {
+    background-color: var(--bela);
+    border: none;
+    height: 1px;
+    margin-bottom: 30px;
+}
+footer p {
+    font-size: 1.3rem;
+}
