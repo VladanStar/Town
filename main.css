@@ -200,3 +200,11 @@ width: 100%;
     background-position: center;
     height: 600px;
 }
+.works .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.works article {
+    flex:  0 0 31%;
+}
